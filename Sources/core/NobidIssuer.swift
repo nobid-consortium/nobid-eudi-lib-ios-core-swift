@@ -17,7 +17,6 @@
 public enum NobidIssuer {
     case nobidIssuerPosteItaliane
     case nobidIssuerIpsz
-    case nobidIssuerThales
     case nobidIssuerEudi
 }
 

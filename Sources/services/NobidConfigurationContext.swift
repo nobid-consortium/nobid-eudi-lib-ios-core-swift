@@ -27,7 +27,7 @@ public protocol NobidConfigurationContext: Sendable, AnyObject {
 /// Implementation of NobidConfigurationContext
 public final class NobidConfigurationContextImpl: NobidConfigurationContext {
     
-    public var issuer: NobidIssuer = .nobidIssuerThales
+    public var issuer: NobidIssuer = .nobidIssuerPosteItaliane
     public var isIPSZIssuerUrl: Bool = false
     public var isIssuanceFlowChooseFromListVariant: Bool = false
     
